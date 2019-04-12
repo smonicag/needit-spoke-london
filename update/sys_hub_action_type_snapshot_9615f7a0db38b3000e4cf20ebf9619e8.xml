@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_snapshot">
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <annotation/>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description> Get the value of an application property</description>
+        <internal_name>get_property</internal_name>
+        <label_cache>[{"name":"{{action.property}}","label":"action➛Property","type":"action","ref":""}]</label_cache>
+        <master>true</master>
+        <name>Get Property</name>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get Property">490fea84dbb073000e4cf20ebf9619b9</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 04:42:13</sys_created_on>
+        <sys_id>9615f7a0db38b3000e4cf20ebf9619e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Get Property</sys_name>
+        <sys_package display_value="NeedIt Spoke" source="x_271382_needit_sp">919e6a44dbb073000e4cf20ebf961937</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Spoke">919e6a44dbb073000e4cf20ebf961937</sys_scope>
+        <sys_update_name>sys_hub_action_type_snapshot_9615f7a0db38b3000e4cf20ebf9619e8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 04:42:14</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=9615f7a0db38b3000e4cf20ebf9619e8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=9615f7a0db38b3000e4cf20ebf9619e8"/>
+    <sys_element_mapping action="delete_multiple" query="id=9615f7a0db38b3000e4cf20ebf9619e8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>property_value1</field>
+        <id>9615f7a0db38b3000e4cf20ebf9619e8</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-04-11 04:42:14</sys_created_on>
+        <sys_id>ea153ba0db38b3000e4cf20ebf961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-04-11 04:42:14</sys_updated_on>
+        <table>var__m_sys_hub_action_output_9615f7a0db38b3000e4cf20ebf9619e8</table>
+        <value>{{action.property}}</value>
+    </sys_element_mapping>
+</record_update>
